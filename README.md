@@ -1,3 +1,24 @@
+<pre>
+Today .................... [||||||||||] 5
+..........................
+Yesterday ................ [||........] 1
+2 days ago ............... [||||......] 2
+3 days ago ............... [||........] 1
+4 days ago ............... [..........] 
+5 days ago ............... [||||||....] 3
+6 days ago ............... [||||......] 2
+7 days ago ............... [||........] 1
+In the last 8 days ....... ............ 15
+..........................
+Total .................... ............ 4213
+Counted since ............  //
+Visitors per day ......... ............ 0.8
+</pre>
+
+Example output. In this example "$nur_im_source_anzeigen" (=just display in source) "$besuche_zusammenfassen" (summarize page impressions by one single user) are set to "false".
+
+# Install
+
 Simply include into your HTML-code and start it e.g. like this:
 
 ```php
@@ -22,22 +43,3 @@ It is however also configurable in a way that it is visible on the Website.
 When a session is set, the page impressions of a single user can be summarized (default).
 The script runs a simple check whether the visitor is a bot. If yes he can be ignored (default).
 The path to the textfile can be specified. Default: “spc/”. If the folder or file doesn't exist it will be generated.
-
-The output looks like this. In this example "$nur_im_source_anzeigen" (=just display in source) "$besuche_zusammenfassen" (summarize page impressions by one single user) are set to "false".
-
-<pre>
-Today .................... [||||||||||] 5
-..........................
-Yesterday ................ [||........] 1
-2 days ago ............... [||||......] 2
-3 days ago ............... [||........] 1
-4 days ago ............... [..........] 
-5 days ago ............... [||||||....] 3
-6 days ago ............... [||||......] 2
-7 days ago ............... [||........] 1
-In the last 8 days ....... ............ 15
-..........................
-Total .................... ............ 4213
-Counted since ............  //
-Visitors per day ......... ............ 0.8
-</pre>
