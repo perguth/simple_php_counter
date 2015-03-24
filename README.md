@@ -1,3 +1,6 @@
+The script automatically generates a textfile and saves the number of visitors per day during the last seven days and the total number of visitors into it. The numbers are represented by an ASCII diagram. Stats can be automatically sendt via email. *A Project from around 2005*.
+
+# Example output
 <pre>
 Today .................... [||||||||||] 5
 ..........................
