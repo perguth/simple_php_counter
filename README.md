@@ -2,7 +2,7 @@
 
 The script automatically generates a textfile and saves the number of visitors per day during the last seven days and the total number of visitors into it. The numbers are represented by an ASCII diagram. Stats can be automatically sendt via email. *A Project from around 2005*.
 
-# Example output
+## Example output
 <pre>
 Today .................... [||||||||||] 5
 ..........................
@@ -22,7 +22,7 @@ Visitors per day ......... ............ 0.8
 
 Example output. In this example "$nur_im_source_anzeigen" (=just display in source) "$besuche_zusammenfassen" (summarize page impressions by one single user) are set to "false".
 
-# Install
+## Install
 
 Simply include into your HTML-code and start it e.g. like this:
 
